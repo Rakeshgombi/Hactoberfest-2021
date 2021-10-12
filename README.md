@@ -10,17 +10,18 @@
 - create or upload file
 - commit the file
 - open new pull request
- 
+
+
 ## FAQ
 
-#### How do I participate for Hackerearth-2021?
-visit https://hacktoberfest.digitalocean.com/ register with github or gitlab account.
+- #### How do I participate for Hackerearth-2021?
+    visit https://hacktoberfest.digitalocean.com/ register with github or gitlab account.
 
-#### I signed up for Hacktoberfest mid-October. Will pull requests that I created earlier in October count?
-Yes, all pull requests created between Oct 1 and Oct 31 will count, regardless of when you register for Hacktoberfest. 
+- #### I signed up for Hacktoberfest mid-October. Will pull requests that I created earlier in October count?
+    Yes, all pull requests created between Oct 1 and Oct 31 will count, regardless of when you register for Hacktoberfest. 
 
-#### When will my pull request gets merged?
+- #### When will my pull request gets merged?
 
-Our team will verify the PR and merge them as soon as possible
+    Our team will verify the PR and merge them as soon as possible
 
-#### Visit https://hacktoberfest.digitalocean.com/faq for more details about this event.
+- #### Visit https://hacktoberfest.digitalocean.com/faq for more details about this event.
