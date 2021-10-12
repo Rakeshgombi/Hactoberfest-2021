@@ -24,4 +24,7 @@
 
     Our team will verify the PR and merge them as soon as possible
 
+- #### How many pull request I have to make?
+    As per organizers mentioned, You have to make minimum of 4 pull requests
+    
 - #### Visit https://hacktoberfest.digitalocean.com/faq for more details about this event.
