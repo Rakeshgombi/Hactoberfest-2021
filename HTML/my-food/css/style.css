@@ -14,14 +14,14 @@
 /*navbar styling ::Logo*/
 #logo img{
     clip-path: circle();
-    width: 124px;
+    width: 130px;
     height: 85px;
     margin:-20px -37px;
 
  
 }
 #logo{
-    margin: 34px 56px;
+    margin: 34px 60px;
 }
 /*navbar list styling*/
 #navbar ul{
@@ -48,7 +48,7 @@ opacity: 0.4;
    
 }
 #navbar ul a:hover{
-    color:black;
+    color:grey;
     background-color: white;
    
 }
