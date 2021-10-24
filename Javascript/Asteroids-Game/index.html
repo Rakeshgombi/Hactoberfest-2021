@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asteroids</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <h2 class="score">
+        Score : <span>0</span>
+    </h2>
+    <div class="container">
+        <div class="meter animate">
+            <span style="width: 100%;"></span>
+        </div>
+    </div>
+    <div class="box shadow-lg">
+        <h2 class="box_title">Asteroids</h2>
+        <button class="start bttn">Start The Game</button>
+        <button class="restart bttn" style="display: none;">Restart Game</button>
+    </div>
+    <canvas class="board">
+        
+    </canvas>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
