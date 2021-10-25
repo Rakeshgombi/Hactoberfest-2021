@@ -1,0 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
+.kar{
+    background: linear-gradient(to right, #F0DD00, #F10002);
+}
