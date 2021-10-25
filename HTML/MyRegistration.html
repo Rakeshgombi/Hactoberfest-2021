@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+      <style>
+         button {
+         background-color: blue;
+         border: none;
+         color: white;
+         padding: 10px 25px;
+         text-align: center;
+         text-decoration: none;
+         display: inline-block;
+         font-size: 16px;
+         cursor: pointer;
+         }
+         #myform{
+         align-items: center;
+         background-color: floralwhite;
+         padding: 10px;
+         }
+         #title{
+         background-color: #e6ffe6}
+      </style>
+   </head>
+   <body>
+      <div id="title">
+         <h2>
+            <marquee>Welcome to Registration form</marquee>
+         </h2>
+      </div>
+      <hr>
+      <div class="col-md-4">
+      </div>
+      <div class="col-md-4">
+         <form id="myform">
+            <table width="450px">
+               <tr>
+                  <td>
+                     <label for="NAME">YOUR NAME</label>
+                  </td>
+                  <td>
+                     <input type="text" name="name" required ><br/><br/>  
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="FNAME">FATHER NAME</label>
+                  </td>
+                  <td>
+                     <input type="text" name="fname" required ><br/><br/>  
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="DATE OF BIRTH   ">DATE OF BIRTH   </label>
+                  </td>
+                  <td>
+                     <input type="date" name="day"  ><br/> <br/> 
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="GENDER">GENDER</label>
+                  </td>
+                  <td>
+                     <input type="radio" name="gender" value="male" checked>male <input type="radio" name="gender" value="female">female <input type="radio" name="gender" value="other">other<br/> <br/> 
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="EMAIL ">EMAIL </label>
+                  </td>
+                  <td>
+                     <input type="text" name="name"  ><br/><br/>  
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="PHONE NO.  ">PHONE NO. </label>
+                  </td>
+                  <td>
+                     <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required><br/> <br/> 
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="ADDRESS ">ADDRESS </label>
+                  </td>
+                  <td>
+                     <textarea type="text" name="addr" rows="3" required></textarea><br/><br/>  
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="hobby">HOBBIES</label>
+                  </td>
+                  <td>
+                     <input type="checkbox" id="Sports" name="Sports" value="Sports">
+                     Sports <br>
+                     <input type="checkbox" id="Music" name="Music" value="Music">
+                     Music <br>
+                     <input type="checkbox" id="Reading" name="Reading" value="Reading">
+                     Reading<br>
+                     <input type="checkbox" id="Bike" name="Bike" value="Bike">
+                     Bike Riding<br/> <br/> 
+                  </td>
+               </tr>
+               <tr>
+                  <td>
+                     <label for="edu">EDUCATION DETAILS</label>
+                  </td>
+                  <td>
+                     <select>
+                        <option value=" "></option>
+                        <option value="1">S.S.C</option>
+                        <option value="2">H.S.C</option>
+                        <option value="3">Under Graduate</option>
+                        <option value="4">Post Graduate</option>
+                     </select>
+                     <br/> <br/> 
+                  </td>
+               </tr>
+            </table>
+            <button onclick="myFunction()">Save</button>
+         </form>
+      </div>
+      <div class="col-md-4">
+      </div>
+      <script>
+         function myFunction() {
+             alert("Record added successfully..!");
+         }
+      </script>
+   </body>
+</html>
