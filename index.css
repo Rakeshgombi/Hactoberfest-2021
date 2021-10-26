@@ -1,0 +1,783 @@
+body {
+   background-image: url(cricketimg.jpg);
+   background-size: 1600px;
+    font-family: "Lato", Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #110f0f; }
+    * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box; }
+        .rca-container {
+            width: 100%;
+            max-width: 1170px;
+            padding: 0px;
+            margin: 0 auto; }
+            .rca-margin {
+                margin-top: 50px;
+                margin-bottom: 50px; }
+
+                .rca-table {
+                    display: table;
+                    width: 100%; }
+                  
+                  .rca-cell {
+                    display: table-cell; }
+                  
+                  p {
+                    margin: 0px; }
+
+                    a {
+                        color: #4d4d4d;
+                        text-decoration: none; }
+                        a:hover, a:focus {
+                          color: #1eb848;
+                        text-decoration: none; }
+
+                          .theme-btn {
+                            color: #1eb848;
+                            border: 1px solid #1eb848;
+                            font-size: 14px;
+                            font-weight: 400;
+                            padding: 7px 15px;
+                            background: transparent;
+                            transition: all 0.3s ease;
+                            border-radius: 3px;
+                            display: inline-block; }
+                            .theme-btn:hover {
+                              background: #1eb848;
+                              color: #fff; }
+                              .nav-back-btn {
+                                color: #d91e18;
+                                font-size: 17px;
+                                font-weight: 400;
+                                padding: 7px 30px;
+                                background: transparent;
+                                transition: all 0.3s ease;
+                                display: inline-block;
+                                position: relative; }
+                                .nav-back-btn:before {
+                                  top: 50%;
+                                  left: 10px;
+                                  border: solid transparent;
+                                  content: " ";
+                                  height: 0;
+                                  width: 0;
+                                  position: absolute;
+                                  pointer-events: none;
+                                  border-color: transparent;
+                                  border-right-color: #d91e18;
+                                  border-width: 8px;
+                                  margin-top: -8px; }
+                                .nav-back-btn:hover {
+                                  color: #d91e18;
+                                  text-decoration: underline; }
+                                  .rca-row {
+                                    margin: 0px;
+                                    padding: 0px; }
+                                  
+                                  .rca-col {
+                                    display: table-cell; }
+                                  
+                                  .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+                                    position: relative;
+                                    min-height: 1px;
+                                    padding-right: 15px;
+                                    padding-left: 15px; }
+
+                                    .rca-column-12 {
+                                        width: 100%; }
+                                      
+                                      .rca-column-11 {
+                                        width: 91.66666667%; }
+                                      
+                                      .rca-column-10 {
+                                        width: 83.33333333%; }
+                                      
+                                      .rca-column-9 {
+                                        width: 75%; }
+                                      
+                                      .rca-column-8 {
+                                        width: 66.66666667%; }
+                                      
+                                      .rca-column-7 {
+                                        width: 58.33333333%; }
+                                      
+                                      .rca-column-6 {
+                                        width: 50%; }
+                                      
+                                      .rca-column-5 {
+                                        width: 41.66666667%; }
+                                      
+                                      .rca-column-4 {
+                                        width: 33.33333333%; }
+                                      
+                                      .rca-column-3 {
+                                        width: 25%; }
+                                      
+                                      .rca-column-2 {
+                                        width: 16.66666667%; }
+                                      
+                                      .rca-column-1 {
+                                        width: 8.33333333%; }
+                                        .rca-menu-widget {
+                                            min-width: 300px;
+                                            max-width: 100%;
+                                            background-color: #fff;
+                                            margin: 10px 0px; }
+                                          
+                                          .rca-menu-scroll {
+                                            min-width: 300px;
+                                            max-width: 100%;
+                                            background-color: #fff;
+                                            margin: 10px 0px;
+                                            overflow-y: auto; }
+                                          
+                                          .rca-micro-widget {
+                                            min-width: 240px;
+                                            max-width: 100%;
+                                            min-height: 110px;
+                                            background-color: #fff;
+                                            margin-bottom: 10px; }
+                                          
+                                          .rca-mini-widget {
+                                            min-width: 300px;
+                                            max-width: 100%;
+                                            min-height: 360px;
+                                            background-color: #fff;
+                                            margin-bottom: 10px; }
+                                          
+                                          .rca-medium-widget {
+                                            min-width: 350px;
+                                            max-width: 100%;
+                                            background-color: #fff;
+                                            margin-bottom: 10px; }
+                                            .rca-relative {
+                                                position: relative; }
+                                              
+                                              .rca-right {
+                                                float: right; }
+                                              
+                                              .rca-clear {
+                                                clear: both; }
+                                              
+                                              .rca-live-text {
+                                                color: #d91e18; }
+                                              
+                                              .rca-theme-text {
+                                                color: #1eb848; }
+                                              
+                                              .rca-basic-text {
+                                                color: #b3b3b3; }
+                                              
+                                              .rca-highlight-text {
+                                                color: #f9690e; }
+                                              
+                                              .rca-center {
+                                                text-align: center; }
+                                                .rca-no-border {
+                                                    border: none; }
+                                                  
+                                                  .rca-micro-widget .rca-bowler-info {
+                                                    font-size: 16px; }
+                                                  
+                                                  .rca-micro-widget .rca-tab-list li {
+                                                    font-size: 14px; }
+                                                  
+                                                  .rca-left-border {
+                                                    border-left: 5px solid #1eb848; }
+                                                  
+                                                  .rca-top-border {
+                                                    border-top: 5px solid #1eb848; }
+                                                    .rca-no-padding {
+                                                        padding: 0; }
+                                                        .rca-padding {
+                                                            padding: 15px 10px;
+                                                            display: block; }
+                                                            .rca-padding.rca-medium-widget {
+                                                              padding: 15px 20px; }
+                                                          
+                                                          .rca-top-padding {
+                                                            padding: 10px 0px; }
+                                                          
+                                                          .rca-content-padding {
+                                                            padding: 20px; }
+                                                            .rca-season-list li {
+                                                                display: inline-block; }
+                                                                .rca-season-list li a {
+                                                                  padding: 15px 15px;
+                                                                  text-align: center;
+                                                                  display: block;
+                                                                  line-height: 20px; }
+                                                                  .rca-match-title {
+                                                                    font-weight: 300;
+                                                                    line-height: 20px;
+                                                                    padding-right: 5px;
+                                                                    margin: 0px; }
+                                                                    .rca-match-title .rca-match-info {
+                                                                      margin: 0; }
+                                                                  
+                                                                  .rca-match-score {
+                                                                    padding-right: 5px;
+                                                                    color: #4d4d4d; }
+                                                                  
+                                                                  .rca-match-schedule {
+                                                                    margin: 0px;
+                                                                    color: #7d7d7d; }
+                                                                  
+                                                                  .rca-match-info {
+                                                                    color: #b3b3b3;
+                                                                    font-weight: normal; }
+                                                                    .rca-live-season.rca-left-border, .rca-live-season.rca-top-border {
+                                                                        border-color: #d91e18; }
+                                                                      
+                                                                      .rca-live-label {
+                                                                        font-size: 14px;
+                                                                        padding-left: 15px;
+                                                                        text-transform: uppercase;
+                                                                        position: relative;
+                                                                        font-weight: bold; }
+                                                                        .rca-live-label::before {
+                                                                          content: "";
+                                                                          width: 10px;
+                                                                          height: 10px;
+                                                                          border-radius: 50%;
+                                                                          background-color: #d91e18;
+                                                                          position: absolute;
+                                                                          top: 4px;
+                                                                          left: 0px; }
+                                                                          .rca-match-series h2 {
+                                                                            padding: 0px; }
+                                                                            .rca-match-series h2 a {
+                                                                              display: block;
+                                                                              padding: 15px 20px;
+                                                                              font-size: 16px;
+                                                                              line-height: 28px;
+                                                                              border-bottom: 2px solid #E6E6E6; }
+                                                                          
+                                                                          .rca-match-series .rca-match-detail {
+                                                                            margin-bottom: 20px; }
+                                                                            .rca-match-series .rca-match-detail:last-child {
+                                                                              margin: 0px; }
+                                                                          
+                                                                          .rca-match-detail h3 {
+                                                                            margin: 0px 0px 5px 0px;
+                                                                            font-size: 16px; }
+                                                                          
+                                                                          .rca-duration {
+                                                                            color: #f9690e;
+                                                                            margin: 0px 0px 5px 0px; }
+                                                                            .rca-tab-list {
+                                                                                border-bottom: 2px solid #E6E6E6;
+                                                                                padding: 10px 10px 0 10px; }
+                                                                                .rca-tab-list.small {
+                                                                                  padding-top: 0;
+                                                                                  border-bottom-width: 0; }
+                                                                                  .rca-tab-list.small li {
+                                                                                    border-bottom-width: 2px; }
+                                                                                .rca-tab-list li {
+                                                                                  display: inline-block;
+                                                                                  font-size: 16px;
+                                                                                  font-weight: bold;
+                                                                                  color: #1eb848;
+                                                                                  line-height: 28px;
+                                                                                  text-transform: uppercase;
+                                                                                  cursor: pointer;
+                                                                                  margin: 0px 7px 0px 7px;
+                                                                                  border-bottom: 4px solid transparent; }
+                                                                                  .rca-tab-list li a {
+                                                                                    display: block;
+                                                                                    padding: 5px 5px; }
+                                                                                  .rca-tab-list li:hover, .rca-tab-list li:focus, .rca-tab-list li.active {
+                                                                                    color: #4d4d4d;
+                                                                                    border-bottom-color: #1eb848; }
+                                                                                    .rca-tab-content {
+                                                                                        display: none; }
+                                                                                        .rca-tab-content.active {
+                                                                                          display: block; }
+                                                                                      
+                                                                                      .rca-tab-simple .rca-match-detail:first-child {
+                                                                                        padding-top: 0px; }
+                                                                                      
+                                                                                      .rca-inside-tab {
+                                                                                        margin-bottom: 5px; }
+                                                                                        .rca-inside-tab h2 {
+                                                                                          margin: 0px;
+                                                                                          padding: 15px 10px;
+                                                                                          background-color: #1eb848;
+                                                                                          color: #fff;
+                                                                                          font-size: 16px;
+                                                                                          cursor: pointer; }
+                                                                                          .rca-inside-tab h2 i {
+                                                                                            float: right;
+                                                                                            font-size: 20px;
+                                                                                            line-height: 20px; }
+                                                                                        .rca-inside-tab .rca-inside-content {
+                                                                                          display: none; }
+                                                                                        .rca-inside-tab.active .rca-inside-content {
+                                                                                          display: block; }
+                                                                                          .rca-match-info {
+                                                                                            margin: 5px 0px; }
+                                                                                            .rca-match-info span {
+                                                                                              padding-right: 10px; }
+                                                                                              .rca-match-info span:last-child {
+                                                                                                padding: 0px; }
+                                                                                          
+                                                                                          .rca-batsman {
+                                                                                            line-height: 30px;
+                                                                                            padding-left: 42px;
+                                                                                            position: relative;
+                                                                                            color: #7d7d7d;
+                                                                                            padding-bottom: 10px; }
+                                                                                          
+                                                                                            .rca-batsman .player {
+                                                                                              min-width: 100px;
+                                                                                              display: inline-block; }
+                                                                                              .rca-ball-by {
+                                                                                                margin-top: 5px; }
+                                                                                                .rca-ball-by li {
+                                                                                                  display: inline-block;
+                                                                                                  border-radius: 50%;
+                                                                                                  width: 25px;
+                                                                                                  height: 25px;
+                                                                                                  text-align: center;
+                                                                                                  line-height: 21px;
+                                                                                                  margin-right: 1px;
+                                                                                                  padding-top: 1px;
+                                                                                                  font-size: 12px;
+                                                                                                  background-color: #b3b3b3;
+                                                                                                  color: #fff; }
+                                                                                                  .rca-ball-by li.w {
+                                                                                                    background-color: #d91e18; }
+                                                                                                  .rca-ball-by li.b4, .rca-ball-by li.b6 {
+                                                                                                    background-color: #1eb848; }
+                                                                                              
+                                                                                              .rca-bowler-info {
+                                                                                                color: #b3b3b3;
+                                                                                                font-size: 18px;
+                                                                                                font-weight: 300;
+                                                                                                margin: 10px 0px; }
+                                                                                                .rca-bowler-info .rca-bolwing {
+                                                                                                  color: #f9690e; }
+                                                                                                  .rca-score-status {
+                                                                                                    border-top: 1px solid #b3b3b3;
+                                                                                                    padding-bottom: 0px;
+                                                                                                    position: relative; }
+                                                                                                    .rca-score-status .rca-status-scroll {
+                                                                                                      border-left: 3px solid #1eb848;
+                                                                                                      line-height: 20px;
+                                                                                                      padding: 0px 10px; }
+                                                                                                    .rca-score-status .rca-bullet-list {
+                                                                                                      position: absolute;
+                                                                                                      top: 11px;
+                                                                                                      right: 0px; }
+                                                                                                      .rca-score-status .rca-bullet-list li {
+                                                                                                        width: 7px;
+                                                                                                        height: 7px;
+                                                                                                        margin-bottom: 3px;
+                                                                                                        border-radius: 50%;
+                                                                                                        background-color: #b3b3b3;
+                                                                                                        cursor: pointer; }
+                                                                                                        .rca-score-status .rca-bullet-list li.active {
+                                                                                                          background-color: #1eb848; }
+                                                                                                          .rca-schedule-widget > h2 {
+                                                                                                            text-align: center;
+                                                                                                            font-weight: 100; }
+                                                                                                          
+                                                                                                          .rca-schedule-widget .rca-schedule-top {
+                                                                                                            font-weight: 700; }
+                                                                                                            .rca-schedule-widget .rca-schedule-top span {
+                                                                                                              padding: 0px 10px; }
+                                                                                                            .rca-schedule-widget .rca-schedule-top a {
+                                                                                                              display: inline-block; }
+                                                                                                              .rca-schedule-widget .rca-schedule-top a.active {
+                                                                                                                color: #1eb848; }
+                                                                                                                .rca-schedule-date h4 {
+                                                                                                                    color: #7d7d7d;
+                                                                                                                    padding: 0px 20px;
+                                                                                                                    margin: 10px 0px; }
+                                                                                                                  
+                                                                                                                  .rca-schedule-detail {
+                                                                                                                    padding: 10px 20px;
+                                                                                                                    margin: 10px 0px; }
+                                                                                                                    .rca-schedule-detail.rca-test {
+                                                                                                                      background-color: #ffebee; }
+                                                                                                                    .rca-schedule-detail.rca-odi {
+                                                                                                                      background-color: #fff9c4; }
+                                                                                                                    .rca-schedule-detail.rca-t20 {
+                                                                                                                      background-color: #E3F2FD; }
+                                                                                                                    .rca-schedule-detail h2 {
+                                                                                                                      font-size: 18px;
+                                                                                                                      margin: 0px 0px 5px 0px; }
+                                                                                                                      .rca-schedule-detail h2 a {
+                                                                                                                        display: block; }
+                                                                                                                        .rca-schedule-detail h2 a .rca-team {
+                                                                                                                          min-width: 150px;
+                                                                                                                          color: #4d4d4d;
+                                                                                                                          display: inline-block; }
+                                                                                                                        .rca-schedule-detail h2 a .rca-match-time {
+                                                                                                                          color: #7d7d7d; }
+                                                                                                                        .rca-schedule-detail h2 a:hover .rca-team, .rca-schedule-detail h2 a:hover .rca-match-time, .rca-schedule-detail h2 a:focus .rca-team, .rca-schedule-detail h2 a:focus .rca-match-time {
+                                                                                                                          color: #1eb848; }
+                                                                                                                    .rca-schedule-detail p {
+                                                                                                                      margin: 0px;
+                                                                                                                      color: #7d7d7d; }
+                                                                                                                      .rca-day-calendar .rca-row {
+                                                                                                                        border-bottom: 1px solid #E6E6E6;
+                                                                                                                        display: table;
+                                                                                                                        width: 100%; }
+                                                                                                                      
+                                                                                                                      .rca-week-day-header {
+                                                                                                                        width: 14%;
+                                                                                                                        text-align: center;
+                                                                                                                        color: #4d4d4d;
+                                                                                                                        display: table-cell;
+                                                                                                                        font-weight: 700;
+                                                                                                                        padding: 10px 0px; }
+                                                                                                                      
+                                                                                                                      .rca-week-day {
+                                                                                                                        width: 14%;
+                                                                                                                        min-height: 120px;
+                                                                                                                        color: #4d4d4d;
+                                                                                                                        font-size: 13px;
+                                                                                                                        font-weight: 700;
+                                                                                                                        display: table-cell;
+                                                                                                                        padding: 5px;
+                                                                                                                        border-right: 1px solid #E6E6E6; }
+                                                                                                                        .rca-week-day:last-child {
+                                                                                                                          border-right: none; }
+                                                                                                                        .rca-week-day .rca-schedule-detail {
+                                                                                                                          padding: 5px;
+                                                                                                                          margin: 5px 0px; }
+                                                                                                                          .rca-week-day .rca-schedule-detail h2 {
+                                                                                                                            font-size: 13px;
+                                                                                                                            margin: 0px; }
+                                                                                                                            .rca-week-day .rca-schedule-detail h2 .rca-team {
+                                                                                                                              min-width: 0px;
+                                                                                                                              margin-left: 3px; }
+                                                                                                                            .rca-week-day .rca-schedule-detail h2 .rca-match-time {
+                                                                                                                              text-transform: lowercase; }
+                                                                                                                              .rca-medium-widget {
+                                                                                                                                font-size: 16px; }
+                                                                                                                                .rca-medium-widget .rca-match-title, .rca-medium-widget .rca-match-info, .rca-medium-widget .rca-live-label {
+                                                                                                                                  text-align: center;
+                                                                                                                                  margin-bottom: 10px; }
+                                                                                                                                .rca-medium-widget .rca-match-title {
+                                                                                                                                  font-size: 18px;
+                                                                                                                                  margin-bottom: 10px; }
+                                                                                                                                .rca-medium-widget .rca-batsman {
+                                                                                                                                  font-size: 18px; }
+                                                                                                                                  .rca-medium-widget .rca-batsman .player {
+                                                                                                                                    min-width: 150px; }
+                                                                                                                                .rca-medium-widget .rca-match-schedule {
+                                                                                                                                  font-weight: 500; }
+                                                                                                                                .rca-medium-widget .rca-ball-by {
+                                                                                                                                  margin-top: 10px; }
+                                                                                                                                  .rca-medium-widget .rca-ball-by li {
+                                                                                                                                    width: 30px;
+                                                                                                                                    height: 30px;
+                                                                                                                                    line-height: 28px;
+                                                                                                                                    font-size: 14px;
+                                                                                                                                    font-weight: 700; }
+                                                                                                                                    .rca-batting-score, .rca-bowling-score {
+                                                                                                                                        border-bottom: 1px solid #E6E6E6; }
+                                                                                                                                        .rca-batting-score.rca-no-border, .rca-bowling-score.rca-no-border {
+                                                                                                                                          border-bottom: none; }
+                                                                                                                                        .rca-batting-score h3, .rca-bowling-score h3 {
+                                                                                                                                          font-size: 20px;
+                                                                                                                                          font-weight: 300;
+                                                                                                                                          margin: 5px 0px 20px 0px; }
+                                                                                                                                        .rca-batting-score .rca-table, .rca-bowling-score .rca-table {
+                                                                                                                                          width: 100%;
+                                                                                                                                          padding: 10px; }
+                                                                                                                                        .rca-batting-score .rca-header, .rca-bowling-score .rca-header {
+                                                                                                                                          width: 100%;
+                                                                                                                                          padding: 10px;
+                                                                                                                                          background: #f2f2f2; }
+                                                                                                                                        .rca-batting-score .rca-score-bottom, .rca-bowling-score .rca-score-bottom {
+                                                                                                                                          margin: 20px 0px 10px 0px; }
+                                                                                                                                        .rca-batting-score .rca-col, .rca-bowling-score .rca-col {
+                                                                                                                                          display: table-cell;
+                                                                                                                                          width: 15%; }
+                                                                                                                                          .rca-batting-score .rca-col.small, .rca-bowling-score .rca-col.small {
+                                                                                                                                            width: 10%; }
+                                                                                                                                          .rca-batting-score .rca-col.rca-player, .rca-bowling-score .rca-col.rca-player {
+                                                                                                                                            width: 40%; }
+                                                                                                                                            .rca-border-bottom {
+                                                                                                                                                border-bottom: 1px solid #E6E6E6; }
+                                                                                                                                              
+                                                                                                                                              .rca-switch {
+                                                                                                                                                color: #1eb848;
+                                                                                                                                                font-weight: 700; }
+                                                                                                                                                .rca-switch span {
+                                                                                                                                                  display: inline-block;
+                                                                                                                                                  padding-right: 20px;
+                                                                                                                                                  cursor: pointer; }
+                                                                                                                                                  .rca-switch span.active {
+                                                                                                                                                    color: #4d4d4d; }
+                                                                                                                                                .rca-switch.filled {
+                                                                                                                                                  border: 1px solid #1eb848;
+                                                                                                                                                  display: inline-block; }
+                                                                                                                                                  .rca-switch.filled span {
+                                                                                                                                                    border-right: 1px solid #1eb848;
+                                                                                                                                                    padding: 10px 20px; }
+                                                                                                                                                    .rca-switch.filled span:last-child {
+                                                                                                                                                      border-right: none; }
+                                                                                                                                                    .rca-switch.filled span.active {
+                                                                                                                                                      background-color: #1eb848;
+                                                                                                                                                      color: #fff; }
+                                                                                                                                                      .rca-history-info {
+                                                                                                                                                        min-height: 0px;
+                                                                                                                                                        font-size: 16px;
+                                                                                                                                                        border: 1px solid #f1f1f1; }
+                                                                                                                                                        .rca-history-info .rca-row {
+                                                                                                                                                          display: table; }
+                                                                                                                                                          .rca-history-info .rca-row:first-child .rca-history-title {
+                                                                                                                                                            padding-top: 30px; }
+                                                                                                                                                          .rca-history-info .rca-row:last-child .rca-history-title {
+                                                                                                                                                            padding-bottom: 30px; }
+                                                                                                                                                        .rca-history-info .rca-col {
+                                                                                                                                                          padding: 15px 20px;
+                                                                                                                                                          display: table-cell; }
+                                                                                                                                                        .rca-history-info .rca-history-title {
+                                                                                                                                                          width: 150px;
+                                                                                                                                                          padding: 15px 20px;
+                                                                                                                                                           background-color: #f1f1f1; }
+                                                                                                                                                           .rca-team-score {
+                                                                                                                                                            font-size: 18px;
+                                                                                                                                                            padding-bottom: 20px; }
+                                                                                                                                                            .rca-team-score .team {
+                                                                                                                                                              min-width: 100px;
+                                                                                                                                                              display: inline-block; }
+                                                                                                                                                          
+                                                                                                                                                          .rca-man-match, .rca-match-start {
+                                                                                                                                                            min-height: 100px;
+                                                                                                                                                            border: 1px solid #f1f1f1; }
+                                                                                                                                                            .rca-man-match h3, .rca-match-start h3 {
+                                                                                                                                                              background-color: #f1f1f1;
+                                                                                                                                                              margin: 0px;
+                                                                                                                                                              padding: 10px 20px;
+                                                                                                                                                              font-size: inherit;
+                                                                                                                                                              line-height: 20px;
+                                                                                                                                                              font-weight: 300; }
+                                                                                                                                                              .rca-man-match h3 span, .rca-match-start h3 span {
+                                                                                                                                                                color: #f9690e;
+                                                                                                                                                                margin-left: 7px; }
+                                                                                                                                                            .rca-man-match .rca-padding, .rca-match-start .rca-padding {
+                                                                                                                                                              padding: 10px 20px; }
+                                                                                                                                                              .rca-match-start {
+                                                                                                                                                                text-align: center; }
+                                                                                                                                                                .rca-match-start h2 {
+                                                                                                                                                                  color: #f9690e;
+                                                                                                                                                                  font-size: 30px;
+                                                                                                                                                                  font-weight: 300; }
+                                                                                                                                                              
+                                                                                                                                                              .rca-man-match-record {
+                                                                                                                                                                margin: 10px 0px; }
+                                                                                                                                                                .rca-man-match-record .title {
+                                                                                                                                                                  min-width: 150px;
+                                                                                                                                                                  display: inline-block; }
+                                                                                                                                                              
+                                                                                                                                                              .rca-teams {
+                                                                                                                                                                font-size: 22px;
+                                                                                                                                                                font-weight: 300;
+                                                                                                                                                                text-align: center;
+                                                                                                                                                                padding: 20px;
+                                                                                                                                                                margin: 0 auto; }
+                                                                                                                                                                .rca-teams .team {
+                                                                                                                                                                  padding: 0px 20px;
+                                                                                                                                                                  width: 150px;
+                                                                                                                                                                  vertical-align: middle; }
+                                                                                                                                                                  .rca-player-detail {
+                                                                                                                                                                    background-color: #f2f2f2;
+                                                                                                                                                                    padding: 15px 20px;
+                                                                                                                                                                    margin-bottom: 10px;
+                                                                                                                                                                    line-height: 20px; }
+                                                                                                                                                                    .rca-player-detail .rca-player {
+                                                                                                                                                                      min-width: 150px; }
+                                                                                                                                                                  
+                                                                                                                                                                  .rca-wicket-falls {
+                                                                                                                                                                    padding-left: 20px; }
+                                                                                                                                                                    .rca-wicket-falls li {
+                                                                                                                                                                      margin-bottom: 10px; }
+                                                                                                                                                                  
+                                                                                                                                                                  .rca-multi-season > .rca-tab-list {
+                                                                                                                                                                    padding: 0;
+                                                                                                                                                                    border-bottom: none; }
+                                                                                                                                                                    .rca-multi-season > .rca-tab-list li {
+                                                                                                                                                                      font-size: 12px;
+                                                                                                                                                                      padding: 0 5px;
+                                                                                                                                                                      margin: 0;
+                                                                                                                                                                      color: #b3b3b3; }
+                                                                                                                                                                      .rca-multi-season > .rca-tab-list li .rca-live-label::before {
+                                                                                                                                                                        display: none; }
+                                                                                                                                                                      .rca-multi-season > .rca-tab-list li:hover, .rca-multi-season > .rca-tab-list li:focus {
+                                                                                                                                                                        color: #4d4d4d;
+                                                                                                                                                                        border-bottom: none; }
+                                                                                                                                                                      .rca-multi-season > .rca-tab-list li.active {
+                                                                                                                                                                        color: #4d4d4d;
+                                                                                                                                                                        border-bottom: none; }
+                                                                                                                                                                        .rca-multi-season > .rca-tab-list li.active .rca-live-label::before {
+                                                                                                                                                                          display: inline-block; }
+                                                                                                                                                                          .rca-squad-season > .rca-tab-list {
+                                                                                                                                                                            padding: 0;
+                                                                                                                                                                            border-bottom: none; }
+                                                                                                                                                                            .rca-squad-season > .rca-tab-list li:hover, .rca-squad-season > .rca-tab-list li:focus {
+                                                                                                                                                                              border-bottom-color: transparent; }
+                                                                                                                                                                            .rca-squad-season > .rca-tab-list li.active {
+                                                                                                                                                                              border-bottom-color: transparent; }
+                                                                                                                                                                          
+                                                                                                                                                                          .rca-stats-title {
+                                                                                                                                                                            text-align: center;
+                                                                                                                                                                            font-weight: 100; }
+                                                                                                                                                                          
+                                                                                                                                                                          .rca-stats.rca-micro-widget .rca-match-start {
+                                                                                                                                                                            border: none; }
+                                                                                                                                                                          
+                                                                                                                                                                          .rca-stats.rca-micro-widget h2 {
+                                                                                                                                                                            font-size: 78px;
+                                                                                                                                                                            font-weight: bold; }
+                                                                                                                                                                          
+                                                                                                                                                                          .rca-stats .rca-batting-score .rca-col, .rca-stats .rca-bowling-score .rca-col {
+                                                                                                                                                                            width: 12%; }
+                                                                                                                                                                            .rca-stats .rca-batting-score .rca-col.rca-player, .rca-stats .rca-bowling-score .rca-col.rca-player {
+                                                                                                                                                                              width: 20%; }
+                                                                                                                                                                          
+                                                                                                                                                                          .rca-stats .rca-match-start h3 {
+                                                                                                                                                                            font-size: 15px;
+                                                                                                                                                                            font-weight: bold; }
+                                                                                                                                                                            .rca-stats .rca-match-start h3.top-bowl {
+                                                                                                                                                                              background-color: #602D91;
+                                                                                                                                                                              color: #fff; }
+                                                                                                                                                                            .rca-stats .rca-match-start h3.top-score {
+                                                                                                                                                                              background-color: #f9690e;
+                                                                                                                                                                              color: #fff; }
+                                                                                                                                                                              .rca-stats h2 {
+                                                                                                                                                                                font-size: 20px;
+                                                                                                                                                                                font-weight: 300;
+                                                                                                                                                                                margin: 0;
+                                                                                                                                                                                text-align: center; }
+                                                                                                                                                                              
+                                                                                                                                                                              .rca-stats .rca-match-start h2 {
+                                                                                                                                                                                margin: 10px 0; }
+                                                                                                                                                                              
+                                                                                                                                                                              .rca-stats .rca-name-tag {
+                                                                                                                                                                                margin: 10px 0; }
+                                                                                                                                                                                .rca-stats .rca-name-tag .rca-name-info {
+                                                                                                                                                                                  width: 150px; }
+                                                                                                                                                                                .rca-stats .rca-name-tag .rca-tag-info {
+                                                                                                                                                                                  color: #7d7d7d; }
+                                                                                                                                                                                .rca-stats .rca-name-tag .rca-name-score {
+                                                                                                                                                                                  color: #f9690e;
+                                                                                                                                                                                  text-align: right; }
+                                                                                                                                                                                .rca-stats .rca-name-tag .rca-table {
+                                                                                                                                                                                  padding: 5px;
+                                                                                                                                                                                  border-bottom: 1px solid #f1f1f1; }
+                                                                                                                                                                                  .rca-stats .rca-name-tag .rca-table:last-child {
+                                                                                                                                                                                    border-bottom: none; }
+                                                                                                                                                                                    .rca-ad-block {
+                                                                                                                                                                                      position: relative;
+                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                      overflow: hidden;
+                                                                                                                                                                                      width: 100%;
+                                                                                                                                                                                      height: 90px;
+                                                                                                                                                                                      display: block; }
+                                                                                                                                                                                      .rca-ad-block.vertical-sm {
+                                                                                                                                                                                        height: 150px; }
+                                                                                                                                                                                      .rca-ad-block.vertical-lg {
+                                                                                                                                                                                        height: 250px; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .rca-logo h2 {
+                                                                                                                                                                                      margin: 0px;
+                                                                                                                                                                                      padding: 20px 0px;
+                                                                                                                                                                                      font-weight: normal; }
+                                                                                                                                                                                      .rca-logo h2 span {
+                                                                                                                                                                                        vertical-align: middle;
+                                                                                                                                                                                        display: inline-block; }
+                                                                                                                                                                                      .rca-logo h2 img {
+                                                                                                                                                                                        max-width: 100%;
+                                                                                                                                                                                        max-height: 50px;
+                                                                                                                                                                                        vertical-align: middle;
+                                                                                                                                                                                        padding: 5px; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .rca-news-widget {
+                                                                                                                                                                                      min-width: 200px;
+                                                                                                                                                                                      max-width: 100%;
+                                                                                                                                                                                      min-height: 425px;
+                                                                                                                                                                                      background-color: #fff;
+                                                                                                                                                                                      margin: 10px 0px; }
+                                                                                                                                                                                      .rca-news-widget h3 {
+                                                                                                                                                                                        background-color: #d91e18;
+                                                                                                                                                                                        padding: 5px 5px 5px 10px;
+                                                                                                                                                                                        color: #fff;
+                                                                                                                                                                                        margin: 0px; }
+                                                                                                                                                                                      .rca-news-widget img {
+                                                                                                                                                                                        margin-right: 15px;
+                                                                                                                                                                                        border-radius: 3px; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .rca-post {
+                                                                                                                                                                                      border-bottom: 1px solid #b3b3b3;
+                                                                                                                                                                                      margin-bottom: 10px; }
+                                                                                                                                                                                      .rca-post h4 {
+                                                                                                                                                                                        margin: 5px 0 0 0; }
+                                                                                                                                                                                      .rca-post p {
+                                                                                                                                                                                        margin: 15px 0 5px 0; }
+                                                                                                                                                                                        .rca-post p img {
+                                                                                                                                                                                          margin-top: 5px; }
+                                                                                                                                                                                      .rca-post .rca-post-info {
+                                                                                                                                                                                        color: #b3b3b3;
+                                                                                                                                                                                        margin-top: 5px;
+                                                                                                                                                                                        font-size: 13px; }
+                                                                                                                                                                                      .rca-post .rca-post-desc img {
+                                                                                                                                                                                        max-width: 100%;
+                                                                                                                                                                                        margin: 10px 0 0 0; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .rca-blog-image {
+                                                                                                                                                                                      position: relative;
+                                                                                                                                                                                      text-align: center;
+                                                                                                                                                                                      background-color: #b3b3b3; }
+                                                                                                                                                                                      .rca-blog-image img {
+                                                                                                                                                                                        max-width: 100%;
+                                                                                                                                                                                        max-height: 300px; }
+                                                                                                                                                                                      .rca-blog-image .rca-blog-head {
+                                                                                                                                                                                        position: absolute;
+                                                                                                                                                                                        bottom: 3px;
+                                                                                                                                                                                        width: 100%;
+                                                                                                                                                                                        padding: 10px;
+                                                                                                                                                                                        background-color: rgba(125, 125, 125, 0.7);
+                                                                                                                                                                                        color: #fff; }
+                                                                                                                                                                                    
+                                                                                                                                                                                    .rca-footer {
+                                                                                                                                                                                      padding: 10px 0; }
+                                                                                                                                                                                      .rca-footer li {
+                                                                                                                                                                                        display: inline-block;
+                                                                                                                                                                                        padding: 0 5px; }
+                                                                                                                                                                                        @media (max-width: 767px) {
+                                                                                                                                                                                          .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+                                                                                                                                                                                            width: 100%;
+                                                                                                                                                                                            padding: 0; }
+                                                                                                                                                                                          .rca-mini-widget.rca-stats {
+                                                                                                                                                                                            min-width: 0; }
+                                                                                                                                                                                          .rca-hide-mobile {
+                                                                                                                                                                                            display: none !important; }
+                                                                                                                                                                                          .rca-stats .rca-name-tag .rca-name-info {
+                                                                                                                                                                                            width: 100px; }
+                                                                                                                                                                                          .rca-menu-scroll .rca-season-list > li {
+                                                                                                                                                                                            float: left;
+                                                                                                                                                                                            width: 33.33%;
+                                                                                                                                                                                            border-right: 1px solid #e6e6e6;
+                                                                                                                                                                                            border-bottom: 1px solid #e6e6e6; }
+                                                                                                                                                                                            .rca-menu-scroll .rca-season-list > li:nth-child(3), .rca-menu-scroll .rca-season-list > li:nth-child(6), .rca-menu-scroll .rca-season-list > li:nth-child(9), .rca-menu-scroll .rca-season-list > li:nth-child(12), .rca-menu-scroll .rca-season-list > li:nth-child(15), .rca-menu-scroll .rca-season-list > li:nth-child(18) {
+                                                                                                                                                                                              border-right: none; } }
+                                                                                                                                                                                        
+                                                                                                                                                                                        @media (min-width: 768px) and (max-width: 992px) {
+                                                                                                                                                                                          .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6 {
+                                                                                                                                                                                            width: 50%; } }
+                                                                                                                                                                                        
+                                                                                                                                                                                        @media (min-width: 767px) {
+                                                                                                                                                                                          .rca-column-1, .rca-column-2, .rca-column-3, .rca-column-4, .rca-column-5, .rca-column-6, .rca-column-7, .rca-column-8, .rca-column-9, .rca-column-10, .rca-column-11, .rca-column-12 {
+                                                                                                                                                                                            float: left; }
+                                                                                                                                                                                          .rca-hide-desk {
+                                                                                                                                                                                            display: none !important; } }
+                                                                                                                                                                                        
+                                                                      
