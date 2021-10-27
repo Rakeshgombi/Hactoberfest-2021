@@ -10,7 +10,7 @@
 - create or upload file
 - commit the file
 - open new pull request
-
+- ## NOTE: Please do not modify others contributions 🙏🏼
 
 ## FAQ
 
