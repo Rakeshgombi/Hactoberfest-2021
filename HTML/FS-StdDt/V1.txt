@@ -1,0 +1,192 @@
+Name:Sachin
+Email:st@gmail.com
+Age:20
+Dept:Mechanical Engineering
+USN:401
+Sem:6
+State:Uttar pradesh
+
+Name:vasu
+Email:vl@gmail.com
+Age:24
+Dept:Electronics and Communication Engineering
+USN:309
+Sem:7
+State:Madhya pradesh
+
+Name:Nikil
+Email:bn@redifmail.com
+Age:20
+Dept:Mechanical
+USN:709
+Sem:3
+State:Himachal pradesh
+
+Name:Dhanraj
+Email:db@gmail.com
+Age:20
+Dept:Civil Engineering
+USN:802
+Sem:4
+State:Andhra pradesh
+
+Name:Satish
+Email:sh@yahoo.com
+Age:20
+Dept:electrical and electronics engineering
+USN:623
+Sem:6
+State:Andhra pradesh
+
+Name:Uday
+Email:ub@gmail.com
+Age:21
+Dept:electrical and electronics engineering
+USN:876
+Sem:7
+State:Uttar pradesh
+
+Name:Kiran
+Email:kb@gmail.com
+Age:21
+Dept:Information Science and Engineering
+USN:876
+Sem:6
+State:Uttar pradesh
+
+Name:Sujit
+Email:smadapuri@gmail.com
+Age:22
+Dept:Computer Science and Engineering
+USN:923
+Sem:7
+State:Madhya pradesh
+
+Name:Abhishek
+Email:apujari@gmail.com
+Age:21
+Dept:Mechanical Engineering
+USN:543
+Sem:7
+State:Karnataka
+
+Name:vijay
+Email:vkolar@gmail.com
+Age:23
+Dept:Computer Science and Engineering
+USN:534
+Sem:7
+State:Karnataka
+
+Name:Asha
+Email:As@gmail.com
+Age:21
+Dept:electrical and electronics engineering
+USN:876
+Sem:7
+State:Karnataka
+
+Name:usha
+Email:ujadav@gmail.com
+Age:23
+Dept:Mechanical
+USN:845
+Sem:6
+State:Uttar pradesh
+
+Name:Shreyas
+Email:s76@gmail.com
+Age:24
+Dept:Civil
+USN:109
+Sem:6
+State:Madhya pradesh
+
+Name:Satish
+Email:Satishupre@gmail.com
+Age:23
+Dept:Civil Engineering
+USN:503
+Sem:6
+State:Madhya pradesh
+
+Name:Nikita
+Email:nbasava@gmail.com
+Age:24
+Dept:Information Science
+USN:534
+Sem:6
+State:Karnataka
+
+Name:Nagraj
+Email:nagraj@gmail.com
+Age:21
+Dept:Electronics and Communication
+USN:576
+Sem:7
+State:Madhya pradesh
+
+Name:Vinuth
+Email:vk@gmail.com
+Age:21
+Dept:Mechanical
+USN:619
+Sem:6
+State:Andhra pradesh
+
+Name:Dhanraj
+Email:Dbakale@gmail.com
+Age:23
+Dept:electrical and electronics engineering
+USN:824
+Sem:7
+State:Karnataka
+
+Name:virat
+Email:vk@gmail.com
+Age:32
+Dept:Cricket
+USN:18
+Sem:8
+State:Delhi
+
+Name:aditya
+Email:ab@gmail.com
+Age:21
+Dept:Information Science 
+USN:609
+Sem:6
+State:Uttar pradesh
+
+Name:Jivan
+Email:Jivan2@gmail.com
+Age:21
+Dept:Information Science
+USN:807
+Sem:6
+State:Uttar pradesh 
+
+Name:vishwa 
+Email:gudipragna@gmail.com
+Age:21
+Dept:mechanical
+USN:2ke1
+Sem:6
+State:Karnataka
+
+Name:sumanth
+Email:email@gmail.com
+Age:21
+Dept:ise
+USN:2502
+Sem:5
+State:k
+
+Name:zahir
+Email:udaybalaganur67@gmail.com
+Age:26
+Dept:ise
+USN:2ke19is408
+Sem:6
+State:Karnataka
+
