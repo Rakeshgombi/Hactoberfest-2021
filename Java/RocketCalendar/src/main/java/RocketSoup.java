@@ -3,8 +3,8 @@
  * launch calendar to a terminal. This calender may not
  * be accurate but is from spaceflightnow.com
  *
- * Author: Evan Colwell
- * Date: 10/21/2020
+ * Author: Evan C.
+ * Date: 10/21/2021
  *
  */
 
