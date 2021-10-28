@@ -1,0 +1,8 @@
+test = 0
+for a in range(999,0,-1):
+    for b in range(a,0,-1):
+        x = a*b
+        if x>test:
+            if str(x) == str(x)[::-1]:
+                test = x
+print(test)
