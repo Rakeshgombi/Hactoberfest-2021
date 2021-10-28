@@ -54,14 +54,8 @@ int minCoins(vector<int> &coin, int sum)
 } 
 
 int main(){
-    int n;
-    cin>>n;
-    vector<int> coin(n);
-    for(int i=0;i<n;i++){
-        cin>>coin[i];
-    }
-    int sum;
-    cin>>sum;
+    vector<int> coin={2,3,5,10,15};
+    int sum=35;
     cout<<minCoins(coin,sum);
     return 0;
 }
