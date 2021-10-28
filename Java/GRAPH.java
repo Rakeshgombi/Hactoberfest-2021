@@ -1,6 +1,7 @@
 import java.math.*;
 import java.util.*;
 public class graph{
+  // prims 
 private static void prims(int[][] adjacencyMatrix) {
    int v = adjacencyMatrix.length;
    boolean visited[] = new boolean[v];
