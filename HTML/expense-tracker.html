@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <!-- bootstrap css -->
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+ <!-- main css -->
+ <link rel="stylesheet" href="css/main.css">
+ <!-- google fonts -->
+ <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
+
+ <!-- font awesome -->
+ <link rel="stylesheet" href="css/all.css">
+ <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700&display=swap" rel="stylesheet">
+
+ <title >Expense tracker app</title>
+ <style>
+ </style>
+</head>
+
+<body>
+ <div class="container-fluid">
+  <div class="row">
+   <div class="col-11 mx-auto pt-3">
+    <!-- title -->
+    <h3 class="meaw banai font">expense tracker</h3>
+    <div class="row">
+     <div class="col-md-5 my-3 meaw2 please-work1">
+      <!-- budget feedback -->
+   <div class="budget-feedback alert alert-danger text-capitalize dhur">budget feedback</div>
+      <!-- budget form -->
+      <form id="budget-form" class=" budget-form font" >
+       <h5> Enter Your Monthly Budget</h5>
+       <div class="form-group">
+        <input type="number" class="form-control budget-input" id="budget-input">
+       </div>
+       <!-- submit button -->
+       <button type="submit" class="font btn text-capitalize budget-submit" id="budget-submit">calculate</button>
+      </form>
+     </div>
+     <div class="col-md-7">
+      <!-- app info -->
+      <div class="row my-3">
+       <div class="col-4 text-center mb-2">
+        <h6 class="text-uppercase info-title font">budget</h6>
+        <span class="budget-icon"><i class="fas fa-money-bill-alt"></i></span>
+        <h4 class="text-uppercase mt-2 budget new122 font" id="budget"><span>₹ </span><span id="budget-amount">0</span></h4>
+       </div>
+       <div class="col-4 text-center">
+        <h6 class="text-uppercase info-title font">expenses</h6>
+        <span class="expense-icon"><i class="far fa-credit-card"></i></span>
+        <h4 class="text-uppercase mt-2 expense font" id="expense"><span>₹ </span><span id="expense-amount">0</span></h4>
+       </div>
+       <div class="col-4 text-center">
+        <h6 class="text-uppercase info-title font">balance</h6>
+        <span class="balance-icon"><i class="fas fa-dollar-sign"></i></span>
+        <h4 class="text-uppercase mt-2 balance new132 font" id="balance"> <span>₹ </span><span id="balance-amount">0</span></h4>
+       </div>
+      </div>
+     </div>
+    </div>
+
+    <div class="row">
+     <div class="col-md-5 my-3 please-work2">
+      <!-- expense feedback -->
+      <div class="expense-feedback alert alert-danger text-capitalize font">expense feedback</div>
+      <!-- expense form -->
+      <form id="expense-form" class=" expense-form meaw2 font">
+       <h5 class="text-capitalize font"> enter your expense</h5>
+       <div class="form-group">
+        <input type="text" class="form-control expense-input font" id="expense-input">
+       </div>
+       <h5 class="text-capitalize font"> enter expense amount</h5>
+       <div class="form-group font">
+        <input type="number" class="form-control expense-input font" id="amount-input">
+       </div>
+       <!-- submit button -->
+       <button type="submit" class="btn text-capitalize expense-submit font" id="expense-submit submit-now">add expense</button>
+      </form>
+     </div>
+     <div class="col-md-7 my-3 font">
+      <!-- expense list -->
+      <div class="expense-list font" id="expense-list">
+
+       <div class="expense-list__info d-flex justify-content-between text-capitalize font">
+        <h5 class="list-item font">expense title</h5>
+        <h5 class="list-item font">expense value</h5>
+        <h5 class="list-item font"></h5>
+       </div>
+       
+
+      </div>
+     </div>
+    </div>
+
+
+
+
+   </div>
+  </div>
+ </div>
+
+  
+
+
+
+
+ <!-- jquery -->
+ <script src="js/jquery-3.3.1.min.js"></script>
+ <!-- bootstrap js -->
+ <script src="js/bootstrap.bundle.min.js"></script>
+ <!-- script js -->
+ <script src="js/app.js"></script>
+ <script>
+    var dont_confirm_leave = 0; //set dont_confirm_leave to 1 when you want the user to be able to leave withou confirmation
+    var leave_message = 'You sure you want to leave?'
+    function goodbye(e) 
+    {
+        if(dont_confirm_leave!==1)
+        {
+            if(!e) e = window.event;
+            //e.cancelBubble is supported by IE - this will kill the bubbling process.
+            e.cancelBubble = true;
+            e.returnValue = leave_message;
+            //e.stopPropagation works in Firefox.
+            if (e.stopPropagation) 
+            {
+                e.stopPropagation();
+                e.preventDefault();
+            }
+
+            //return works for Chrome and Safari
+            return leave_message;
+        }
+    }   
+window.onbeforeunload=goodbye;
+</script>
+
+</body>
+
+</html>
