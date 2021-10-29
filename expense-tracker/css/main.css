@@ -1,0 +1,216 @@
+:root {
+  --mainWhite: #f5f5f5f5;
+  --mainDark: #333333;
+  --mainGreen: #317b22;
+  --mainRed: #b80c09;
+  --mainBlue: #05668d;
+}
+
+body {
+ background: var(--mainWhite);
+  color: var(--mainDark);
+  
+}
+.budget-feedback,
+.expense-feedback {
+  display: none;
+}
+.meaw{
+  background-color: rgba(255,255,193,1);
+  text-align: center;
+ /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+ -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+ box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);    border-radius: 25px;
+    padding: 20px;
+  
+}
+.meaw2{
+  background-color: rgba(255,255,193,1);
+ /* text-align: center;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+  -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+  box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);    border-radius: 25px;
+    padding: 20px;
+  
+}
+.meaw3{
+  background-color: rgba(255,255,193,1);
+  text-align: center;
+ /* box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);*/
+ -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+ box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);    border-radius: 25px;
+    padding: 20px;
+  
+}
+.boro{
+  height: 400px;
+}
+.gullu{
+  filter: drop-shadow(0px 12px 42px rgba(0,0,0,0.200));
+  border-radius:13px;
+  padding: 10px;
+}
+.budget-form {
+  background: transparent;
+
+ /* border: 0.15rem solid var(--mainGreen);
+  padding: 1rem;
+  border-radius: 0.25rem;
+*/
+  background-color: rgba(255,255,193,1);
+}
+.expense-form {
+  /*border: 0.15rem solid var(--mainRed);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  */background-color: rgba(255,255,193,1);
+
+}
+.budget-submit {
+  background: transparent;
+  /*border: 0.1rem solid var(--mainGreen);
+  color: var(--mainGreen);*/
+  background-color: #ffffff;
+  border-radius:13px;
+  padding: 10px;
+  -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);
+  background: (var(--mainWhite));
+}
+.expense-submit {
+  background: transparent;
+  background-color: #ffffff;
+  border-radius:13px;
+  padding: 10px;
+  -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);
+  background: (var(--mainWhite));
+}
+.expense-submit:hover {
+  background: var(--mainRed);
+  color: var(--mainWhite);
+}
+.budget-submit:hover {
+  background: var(--mainGreen);
+  color: var(--mainWhite);
+}
+.budget-input{
+  border: 0.00rem;
+  -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+  box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);
+}
+
+.expense-input {
+  border: 0.00rem solid var(--mainRed) !important;
+  -webkit-box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09); 
+box-shadow: 13px 13px 18px -7px rgba(0,0,0,0.09);
+}
+
+.expense-amount,
+.expense-title {
+  color: var(--mainRed);
+}
+.edit-icon {
+  color: var(--mainBlue);
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none !important;
+}
+.delete-icon {
+  color: var(--mainRed);
+  cursor: pointer;
+  font-size: 1rem;
+  text-decoration: none !important;
+}
+.edit-icon:hover {
+  color: var(--mainBlue);
+}
+.delete-icon:hover {
+  color: var(--mainRed);
+}
+.showItem {
+  display: block;
+}
+.info-title {
+  font-size: 1.5rem;
+}
+.budget {
+  font-size: 2.6rem;
+  color: var(--mainGreen);
+}
+.expense {
+  font-size: 2.6rem;
+  color: var(--mainRed);
+}
+.balance {
+  font-size: 1.6rem;
+}
+.budget-icon,
+.expense-icon,
+.balance-icon {
+  font-size: 2.5rem;
+  color: var(--mainBlue);
+}
+.showRed {
+  color: var(--mainRed);
+}
+.showGreen {
+  color: var(--mainGreen);
+}
+.showBlack {
+  color: var(--mainDark);
+}
+.new122{
+  font-size: 2.6rem;
+  color: var(--mainGreen);
+}
+.new132{
+  font-size: 2.6rem;
+  color: var(--mainDark);
+}
+.banai{
+  margin: 0 auto;
+}
+
+.work-plase{
+  display: flex;  
+  flex-flow: row wrap;
+  font-weight: bold;
+  text-align: center;
+}
+
+.please-work1{
+  display:inline-block;
+  vertical-align:middle;
+}
+.font{
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+@media screen and (min-width: 992px) {
+  .budget {
+    font-size: 2.6rem;
+    color: var(--mainGreen);
+  }
+  .expense {
+    font-size: 2.6rem;
+    color: var(--mainRed);
+  }
+  .balance {
+    font-size: 2.6rem;
+    
+  }
+  .budget-icon,
+  .expense-icon,
+  .balance-icon {
+    font-size: 3.5rem;
+    color: var(--mainBlue);
+  }
+}
+.list-item {
+  flex: 0 0 33.33%;
+  text-align: center;
+}
+.expense-item {
+  height: 2rem;
+}
