@@ -1,3 +1,5 @@
+// Start of Graph program in Java Language
+
 import java.math.*;
 import java.util.*;
 public class graph{
@@ -68,3 +70,5 @@ private static void prims(int[][] adjacencyMatrix) {
 
 
  }
+
+// End of the program
