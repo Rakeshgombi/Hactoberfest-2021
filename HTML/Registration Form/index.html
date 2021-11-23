@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Admission Form Page HTML</title>
+        <style>
+            body
+            {
+                background: url(background.png);
+                height: 100vh;
+                width: 100%;
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+    </head>
+<body>
+    <form align="center">
+        <h1>Admission Form Page</h1>
+        <p>Fill the form carefully*</p>
+        <fieldset>
+           <label>Firstname</label>
+           <input type="text" id="fname" placeholder="fname">
+           <label>Lastname</label>
+           <input type="text" id="lname" placeholder="lname">
+            <br/><br/>
+           <label>Roll No</label>
+           <input type="text" id="lname" placeholder="rollno">
+           <label>Date</label>
+           <input type="date" id="lname" placeholder="rollno">
+        </fieldset><br/>
+       <legend>
+            <label>Gender></label>
+            <label>Male<input type="radio" name="Male" value="male"></label>
+            <label>Female<input type="radio" name="Female" value="female"></label>
+        </legend><br/>
+        <fieldset>
+            <label>Hobbies></label>
+            <label>Singing<input type="checkbox" name="Singing" value="Singing"></label>
+            <label>Dancing<input type="checkbox" name="Dancing" value="Dancing"></label>
+            <label>Sports<input type="checkbox" name="Sports" value="Sports"></label>
+        </fieldset><br/>
+        <fieldset>
+            <label>College Name</label>
+            <input type="text" value="">
+            <label>University</label>
+            <input type="text" value=""><br/><br/>
+            <label>Department:</label>
+            <select>
+                <option value="cs">None</option>
+                <option value="cs">CS</option>
+                <option value="ece">ECE</option>
+                <option value="It">IT</option>
+                <option value="eee">EEE</option>    
+            </select>
+        </fieldset><br/>
+        <fieldset>
+            <label>Email:</label>
+            <input type="text">
+            <label>Phone Number:</label>
+            <input type="text">
+        </fieldset><br/>
+        <label>Address:</label>
+        <textarea rows="3" cols="70" name="address" id="address"></textarea><br/>
+        <legend>
+            <input type="button" id="btn" value="Submit">
+            <input type="button" id="btn" value="Reset">
+        </legend>
+    </form>
+</body>
+</html>
